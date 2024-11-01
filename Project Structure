@@ -1,0 +1,48 @@
+teamschedule/
+│
+├── backend/
+│   ├── config/
+│   │   ├── db.js
+│   │   └── env.js
+│   ├── controllers/
+│   │   ├── userController.js
+│   │   ├── scheduleController.js
+│   │   └── taskController.js
+│   ├── models/
+│   │   ├── User.js
+│   │   ├── Schedule.js
+│   │   └── Task.js
+│   ├── routes/
+│   │   ├── userRoutes.js
+│   │   ├── scheduleRoutes.js
+│   │   └── taskRoutes.js
+│   ├── middleware/
+│   │   └── authMiddleware.js
+│   ├── package.json
+│   └── server.js
+│
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   │   ├── common/
+│   │   │   │   ├── Button.js
+│   │   │   │   └── Form.js
+│   │   │   ├── Dashboard.js
+│   │   │   ├── ScheduleManager.js
+│   │   │   └── TaskAssigner.js
+│   │   ├── pages/
+│   │   │   ├── Login.js
+│   │   │   ├── Profile.js
+│   │   │   └── Home.js
+│   │   ├── services/
+│   │   │   ├── authService.js
+│   │   │   ├── scheduleService.js
+│   │   │   └── taskService.js
+│   │   ├── App.js
+│   │   └── index.js
+│   ├── package.json
+│   └── README.md
+│
+├── .gitignore
+└── README.md
